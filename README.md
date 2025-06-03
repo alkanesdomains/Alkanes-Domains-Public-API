@@ -1,6 +1,5 @@
-# Alkanes-Domains-Public-API
 
-#  Alkanes Domains API
+#  Alkanes Domains Public API
 
 The Alkanes Domains API allows you to query domain ownership details on the Bitcoin blockchain using the `.btc` namespace. Below is documentation for the `/api/domain-holder` endpoint, which returns the wallet address of a primary `.btc` domain.
 
@@ -71,10 +70,11 @@ If the domain exists and is set as primary, you’ll receive:
 
 Use `curl` to query a domain:
 
+```bash
 curl -X POST https://alkanes.domains/api/domain-holder \
   -H "Content-Type: application/json" \
   -d '{"name": "example.btc"}'
-
+```
 ---
 
 ## ℹ️ Notes
