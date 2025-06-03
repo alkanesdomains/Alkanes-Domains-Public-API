@@ -84,3 +84,8 @@ curl -X POST https://alkanes.domains/api/domain-holder \
 - Response includes the **Taproot or SegWit address** of the domain holder if applicable.
 
 ---
+
+## 📦 SDK
+
+Alkanes JavaScript SDK will be published **very soon**.
+
